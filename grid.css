@@ -25,6 +25,8 @@
     }
 
 .row {
+    width: 100%;
+    align-content: center;
     margin-left: -5px;
     margin-right: -5px;
 }
@@ -75,6 +77,26 @@
     }
 
 /* GERAL */
+
+.button {
+    position: fixed;
+    align-items: center;
+    align-content: center !important;
+    border: 1px solid #754ba0;
+    width: 120px!important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #000!important;
+    transition: 1s;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #fff;
+    cursor: pointer;
+}
+.button:hover,
+.button:focus {
+    background: #584b88!important
+}
 
 .home {
     background: #000;
