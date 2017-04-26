@@ -5,8 +5,8 @@ Exemplo: https://cjperes.github.io/opennork/
 
 
 Futuas att:
-Melhorar código(trash code)
-Organização geral
-Efeitos pre codificados
-Mais opções de grids
+/Melhorar código(trash code)
+/Organização geral
+/Efeitos pre codificados
+/Mais opções de grids
 
