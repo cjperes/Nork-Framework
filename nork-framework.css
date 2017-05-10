@@ -1,0 +1,556 @@
+/* OPEN NORK FRAMEWORK CSS - A grid framework system by NORK.DIGITAL  https://github.com/cjperes/opennork */
+
+
+/* Last update 10-05-17 */
+
+
+/* reset css */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,900');
+* {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/* fim reset css */
+
+
+/* TEXTOS E ALINHAMENTO */
+
+h1 {
+    font-size: 32px
+}
+
+h2 {
+    font-size: 22px
+}
+
+h3 {
+    font-size: 16px
+}
+
+h4 {
+    font-size: 14px
+}
+
+h5 {
+    font-size: 12px
+}
+
+h6 {
+    font-size: 10px
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+
+/* FIM TEXTOS E ALINHAMENTOS */
+
+
+/* COLORS */
+
+.bg-default {
+    background: #222222!important;
+}
+
+.bg-primary {
+    background: #3498db!important;
+}
+
+.bg-danger {
+    background: #ff4455!important;
+}
+
+.bg-success {
+    background: #3FC380!important;
+}
+
+.bg-attention {
+    background: #F4D03F!important;
+}
+
+.bg-black {
+    background: #000000!important;
+}
+
+.bg-grey {
+    background: #777777!important;
+}
+
+.bg-white {
+    background: #FFFFFF!important;
+}
+
+.bg-turquoise {
+    background: #1abc9c!important;
+}
+
+.bg-greensea {
+    background: #16a085!important;
+}
+
+.bg-emerald {
+    background: #2ecc71!important;
+}
+
+.bg-nephritis {
+    background: #27ae60!important;
+}
+
+.bg-peterriver {
+    background: #3498db!important;
+}
+
+.bg-belizehole {
+    background: #2980b9!important;
+}
+
+.bg-amethyst {
+    background: #9b59b6!important;
+}
+
+.bg-wisteria {
+    background: #8e44ad!important;
+}
+
+.bg-wetasphalt {
+    background: #34495e!important;
+}
+
+.bg-midnightblue {
+    background: #2c3e50!important;
+}
+
+.bg-sunflower {
+    background: #f1c40f!important;
+}
+
+.bg-orange {
+    background: #f39c12!important;
+}
+
+.bg-carrot {
+    background: #e67e22!important;
+}
+
+.bg-pumpkin {
+    background: #d35400!important;
+}
+
+.bg-alizarin {
+    background: #e74c3c!important;
+}
+
+.bg-pomegranate {
+    background: #c0392b!important;
+}
+
+.bg-clouds {
+    background: #ecf0f1!important;
+}
+
+.bg-silver {
+    background: #bdc3c7!important;
+}
+
+.bg-concrete {
+    background: #95a5a6!important;
+}
+
+.bg-asbestos {
+    background: #7f8c8d!important;
+}
+
+.color-default {
+    color: #222222!important;
+}
+
+.color-primary {
+    color: #3498db!important;
+}
+
+.color-danger {
+    color: #ff4455!important;
+}
+
+.color-success {
+    color: #3FC380!important;
+}
+
+.color-attention {
+    color: #F4D03F!important;
+}
+
+.color-black {
+    color: #000000!important;
+}
+
+.color-grey {
+    color: #777777!important;
+}
+
+.color-white {
+    color: #FFFFFF!important;
+}
+
+.color-turquoise {
+    color: #1abc9c!important;
+}
+
+.color-greensea {
+    color: #16a085!important;
+}
+
+.color-emerald {
+    color: #2ecc71!important;
+}
+
+.color-nephritis {
+    color: #27ae60!important;
+}
+
+.color-peterriver {
+    color: #3498db!important;
+}
+
+.color-belizehole {
+    color: #2980b9!important;
+}
+
+.color-amethyst {
+    color: #9b59b6!important;
+}
+
+.color-wisteria {
+    color: #8e44ad!important;
+}
+
+.color-wetasphalt {
+    color: #34495e!important;
+}
+
+.color-midnightblue {
+    color: #2c3e50!important;
+}
+
+.color-sunflower {
+    color: #f1c40f!important;
+}
+
+.color-orange {
+    color: #f39c12!important;
+}
+
+.color-carrot {
+    color: #e67e22!important;
+}
+
+.color-pumpkin {
+    color: #d35400!important;
+}
+
+.color-alizarin {
+    color: #e74c3c!important;
+}
+
+.color-pomegranate {
+    color: #c0392b!important;
+}
+
+.color-clouds {
+    color: #ecf0f1!important;
+}
+
+.color-silver {
+    color: #bdc3c7!important;
+}
+
+.color-concrete {
+    color: #95a5a6!important;
+}
+
+.color-asbestos {
+    color: #7f8c8d!important;
+}
+
+
+/* FIM COLORS */
+
+
+/* GRID SYSTEM */
+
+.col {
+    display: inline-block;
+    vertical-align: top;
+    min-height: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100%;
+    margin-right: -4px;
+    *zoom: 1;
+    *display: inline;
+}
+
+
+/* 2 colonas */
+
+@media (min-width: 480px) {
+    .col-2 {
+        width: 50%;
+    }
+}
+
+
+/* 3 colunas */
+
+@media (min-width: 728px) {
+    .col-3 {
+        width: 33.3333%;
+    }
+}
+
+
+/* sidebar */
+
+@media (min-width: 992px) {
+    .col-content {
+        width: 60%;
+    }
+    .col-sidebar {
+        width: 40%;
+    }
+}
+
+
+/* FIM GRID SYSTEM */
+
+
+/* CONTAINER E ROW */
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+}
+
+@media (min-width: 1170px) {
+    .container {
+        max-width: 1170px;
+        padding: 0;
+    }
+}
+
+.row {
+    width: 100%;
+    align-content: center;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.row:before,
+.row:after {
+    content: "";
+    display: table;
+}
+
+.row:after {
+    clear: both;
+}
+
+
+/* FIM CONTAINER E ROW */
+
+
+/* PADDING */
+
+.pdt {
+    padding-top: 5%;
+}
+
+
+/* FIM PADDING */
+
+
+/* TAMANHOS BGS */
+
+.bg-full {
+    height: 100vh;
+    padding: 7%;
+}
+
+.bg-90 {
+    height: 90vh;
+    padding: 7%;
+}
+
+.bg-80 {
+    height: 80vh;
+    padding: 7%;
+}
+
+
+/* FIM CONTAINER E ROW */
+
+
+/* PARALLAX */
+
+.parallax {
+    /* Imagem a utilizar */
+    background-image: url("http://bbcreative.org/upload/imagens/f0a64c3d7a9414b4ff86002e85873c3b.png") !important;
+    /* Tamanho da imagem recomendado usar Viewport Units */
+    height: 100vh;
+    /* parallax effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* REMOVA ESTE COMENTÁRIO PARA DESLIGAR O PARALLAX EM DISPOSITIVOS MOBILE
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+} 
+/*
+
+/* FIM PARALLAX */
+
+
+/* animations */
+
+.fadeInUp {
+    animation-name: fadeInUp;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.arrow {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    -webkit-animation-name: arrow;
+    animation-name: arrow;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    text-align: center;
+}
+
+@-webkit-keyframes arrow {
+    0% {
+        top: 0px;
+    }
+    50% {
+        top: 20px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+@keyframes arrow {
+    0% {
+        top: 0px;
+    }
+    50% {
+        top: 20px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+.anima2 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    -webkit-animation-name: anima2;
+    animation-name: anima2;
+    -webkit-animation-duration: 8s;
+    animation-duration: 8s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    text-align: center;
+}
+
+@-webkit-keyframes anima2 {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    25% {
+        top: 0px;
+        left: 100px;
+    }
+    50% {
+        top: 100px;
+        left: 100px;
+    }
+    75% {
+        top: 100px;
+        left: 0px;
+    }
+    100% {
+        top: 0px;
+        left: 0px;
+    }
+}
+
+
+/* fim animations */
+
+
+/* CUSTOM CSS */
+
+.home {
+    background: #000;
+    text-decoration-color: white;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.teste {
+    background: #000;
+    padding: 10px;
+    border-radius: 2px;
+    text-align: center;
+    margin: 2px 0;
+    color: #fff;
+}
+
+
+/* FIM CUSTOM CSS */
