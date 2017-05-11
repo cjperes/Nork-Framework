@@ -383,6 +383,9 @@ h6 {
     padding-top: 5%;
 }
 
+.pdb {
+    padding-bottom: 5%;
+}
 
 /* FIM PADDING */
 
@@ -552,5 +555,31 @@ h6 {
     color: #fff;
 }
 
+.button {
+    position: absolute;
+    left: 45%;
+    align-items: center;
+    align-content: center !important;
+    border: 1px solid #000;
+    width: 150px!important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #000!important;
+    transition: 1s;
+    border-radius: 1px;
+    text-align: center;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    background: #e5e5e5 !important;
+}
+
+a:link 
+{ 
+ text-decoration:none; 
+} 
 
 /* FIM CUSTOM CSS */
