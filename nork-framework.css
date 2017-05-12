@@ -1,12 +1,10 @@
 /* OPEN NORK FRAMEWORK CSS - A grid framework system by NORK.DIGITAL  https://github.com/cjperes/opennork */
+/* Last update 12-05-17 */
 
-
-/* Last update 10-05-17 */
-
-
-/* reset css */
 
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,900');
+
+/* reset css */
 * {
     font-family: 'Raleway', sans-serif;
     margin: 0;
@@ -15,8 +13,6 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-
-
 /* fim reset css */
 
 
@@ -57,7 +53,6 @@ h6 {
 .text-right {
     text-align: right;
 }
-
 
 /* FIM TEXTOS E ALINHAMENTOS */
 
@@ -288,6 +283,21 @@ h6 {
     color: #7f8c8d!important;
 }
 
+.color-softred {
+    color: #EC644B !important;
+}
+
+.color-flamingo {
+    color: #EF4836 !important;
+}
+
+.color-radicalred {
+    color: #F62459 !important;
+}
+
+.color-studio {
+    color: #8E44AD !important;
+}
 
 /* FIM COLORS */
 
@@ -373,7 +383,6 @@ h6 {
     clear: both;
 }
 
-
 /* FIM CONTAINER E ROW */
 
 
@@ -385,6 +394,14 @@ h6 {
 
 .pdb {
     padding-bottom: 5%;
+}
+
+.pdl {
+    padding-left: 10px;
+}
+
+.pdr {
+    padding-right: 10px;
 }
 
 /* FIM PADDING */
