@@ -1,4 +1,81 @@
-<!DOCTYPE html><html lang="pt-br"><head><meta charset="UTF-8"><title>Nork Framework</title><link rel="stylesheet" href="nork-framework.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></head><body><div class="home"><h1 class="color-white">OPEN NORK v0.1</h1><p class="color-white">Framework CSS desenvolvido para agilizar o desenvolvimento de produtos web </p><div class="arrow col pdt"><i class="fa fa-thumbs-o-up fa-5x fa-inverse" aria-hidden="true"></i></div></div><div class="container pdb"><!--uma coluna--><div class="row"><div class="col text-center pdt"><h2>Redimensione o seu navegador e veja a mágica!</h2></div><div class="col pdt"><div class="teste">col</div></div></div><!--duas culunas--><div class="row"><div class="col col-2"><div class="teste">col-2</div></div><div class="col col-2"><div class="teste">col-2</div></div></div><!--três colunas--><div class="row"><div class="col col-3"><div class="teste">col-3</div></div><div class="col col-3"><div class="teste">col-3</div></div><div class="col col-3"><div class="teste">col-3</div></div></div><!--Coluna com sidebar--><div class="row"><div class="col col-content"><div class="teste">content</div></div><div class="col col-sidebar pdb"><div class="teste">Powered by Nork.Digital</div></div></div><div class="button"><a href="https://github.com/cjperes/opennork/blob/gh-pages/startpage.html">COMEÇE A USAR!</a></div></div></body></html>ger {
+/* NORK FRAMEWORK CSS - A grid framework system by NORK.DIGITAL  https://github.com/cjperes/opennork */
+
+
+/* pdate 06-2021 */
+
+
+/* fonts import */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,900');
+
+/* reset css */
+
+* {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/* fim reset css */
+
+
+/* TEXTOS E ALINHAMENTO */
+
+h1 {
+    font-size: 32px
+}
+
+h2 {
+    font-size: 22px
+}
+
+h3 {
+    font-size: 16px
+}
+
+h4 {
+    font-size: 14px
+}
+
+h5 {
+    font-size: 12px
+}
+
+h6 {
+    font-size: 10px
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+
+/* FIM TEXTOS E ALINHAMENTOS */
+
+
+/* COLORS */
+
+.bg-default {
+    background: #222222!important;
+}
+
+.bg-primary {
+    background: #3498db!important;
+}
+
+.bg-danger {
     background: #ff4455!important;
 }
 
@@ -234,7 +311,7 @@
 /* FIM COLORS */
 
 
-/* 3 col GRID SYSTEM */
+/* GRID SYSTEM */
 
 .col {
     display: inline-block;
